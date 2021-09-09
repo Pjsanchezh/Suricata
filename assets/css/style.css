@@ -8,15 +8,24 @@ body {
 
 .suritam {
   width: 8.25em;
-  margin-left: calc(1.5em + 3vw);
 }
 
 .bajando {
   margin-right: 0.5em;
+  margin-left: 3em;
 }
 
-.to-the-left {
-  margin-left: 80em;
+h3 {
+  font-weight: 700;
+  font-size: 3em; 
+  display: inline-flex;
+  vertical-align: middle;
+  color: #fff;
+  margin: 1.5em 0 1.5em 6em;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 div h1 {
@@ -24,9 +33,62 @@ div h1 {
   font-size: calc(2.2em + 2vw);
   text-align: center;
   color: #707070;
-  margin: 1em 0 0 0;
+  margin: 1em 0 1em 0;
 }
 
-ul li {
-  margin-inline-start: 1em;
+.to-the-right {
+  position: relative;
+  left: 3rem;
+}
+
+.to-the-left {
+  margin-right: 8em;
+}
+
+li a{
+  font-weight: 400;
+  font-size: 1.25em;
+  margin-inline: 0.5em;
+}
+
+.filipino {
+  font-weight: 400;
+}
+
+.yugioh {
+  padding: 0;
+  width: 18em;
+  margin: auto;
+}
+
+div i{
+  color: #fff;
+  margin-inline: 0.5em;
+  vertical-align: middle;
+}
+
+.nope {
+  text-decoration: none;
+}
+
+.blue {
+  background-color: #17a2b8;
+  display: inline-block;
+}
+
+.plass {
+  margin-bottom: 5em;
+}
+
+.futer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(2em + 1.3vw);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.raigt {
+  margin-left: 1.5em;
 }
